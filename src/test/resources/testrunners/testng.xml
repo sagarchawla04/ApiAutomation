@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="1" name="API Automation">
+        <!-- <parameter name="browser" value="chrome" /> -->
+        <classes>
+            <class name="com.qa.testcases.OpenWeatherApplication" />
+        </classes>
+    </test>
+</suite>
